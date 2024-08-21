@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body class="student-background">
+    <header>
+        <div class="logo-container">
+            <img src="DPUlogo.png" alt="DPU Logo" class="logo">
+            <h1>DPU Student Register</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="register-container student-container">
+            <h2>Student Register</h2>
+            <form id="registerForm">
+                <label for="regUsername">Username:</label>
+                <input type="text" id="regUsername" name="username" required>
+                <label for="regPassword">Password:</label>
+                <input type="password" id="regPassword" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="student-login.html">Login here</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ERP Cell. All rights reserved.</p>
+    </footer>
+</body>
+</html>

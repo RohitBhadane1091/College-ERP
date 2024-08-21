@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body class="student-background">
+    <header>
+        <div class="logo-container">
+            <img src="DPUlogo.png" alt="DPU Logo" class="logo">
+            <h1>DPU Student Dashboard</h1>
+        </div>
+        <button id="logoutButton">Logout</button>
+    </header>
+
+    <main>
+        <section class="dashboard-container">
+            <h2>Welcome to the Student Dashboard</h2>
+            <p>This is a protected page accessible only to logged-in users.</p>
+            <div>
+                <h3>Attendance</h3>
+                <form id="attendanceForm">
+                    <label for="attendanceDate">Date:</label>
+                    <input type="date" id="attendanceDate" name="date" required>
+                    <label for="attendanceStatus">Status:</label>
+                    <select id="attendanceStatus" name="status" required>
+                        <option value="present">Present</option>
+                        <option value="absent">Absent</option>
+                    </select>
+                    <button type="submit">Record Attendance</button>
+                </form>
+                <div id="attendanceRecords"></div>
+            </div>
+            <div>
+                <h3>PPT</h3>
+                <!-- Add PPT functionality here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ERP Cell. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="DPUlogo.png" alt="DPU Logo" class="logo">
+            <h1>DPU TEACHER ACCOUNT</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-container">
+            <h2>Login to your account</h2>
+            <form id="loginForm" action="teacher-dashboard.html" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="teacher-register.html">Create a new account</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ERP Cell. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* CSS for Upcoming Events Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.upcoming-events {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.upcoming-events .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upcoming-events .box {
+    max-width: 400px;
+    margin: 0 20px 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-events .box h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.upcoming-events .box p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Optional: Style for speakers */
+.upcoming-events .box p strong {
+    color: #333;
+}
+
+.upcoming-events .box a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.upcoming-events .box a.btn:hover {
+    background-color: #0056b3;
+}
